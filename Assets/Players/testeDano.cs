@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraScript : MonoBehaviour
+public class testeDano : MonoBehaviour
 {
-    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +15,8 @@ public class cameraScript : MonoBehaviour
     {
         
     }
-    
+
+    void OnTriggerEnter(Collider col) {
+            print("dano");
+    }
 }
